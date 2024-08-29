@@ -1,6 +1,6 @@
 import "./styles.css";
 import { useState, useEffect } from "react";
-import { products } from "./data.json";
+import { products } from "./data";
 
 export default function App() {
   const [activeItem, setActiveItem] = useState(0);
