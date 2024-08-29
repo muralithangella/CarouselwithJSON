@@ -4,26 +4,6 @@ import { products } from "./data.json";
 
 export default function App() {
   const [activeItem, setActiveItem] = useState(0);
-  const data = [
-    {
-      id: 1,
-      title: "Car",
-      image:
-        "https://cdn.dummyjson.com/products/images/vehicle/Charger%20SXT%20RWD/thumbnail.png",
-    },
-    {
-      id: 2,
-      title: "Laptop",
-      image:
-        "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/thumbnail.png",
-    },
-    {
-      id: 3,
-      title: "EarRing",
-      image:
-        "https://cdn.dummyjson.com/products/images/womens-jewellery/Green%20Oval%20Earring/thumbnail.png",
-    },
-  ];
 
   useEffect(() => {
     setTimeout(() => {
